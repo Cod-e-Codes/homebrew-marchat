@@ -1,28 +1,28 @@
 class Marchat < Formula
   desc "Terminal chat with WebSockets, optional E2E encryption, and plugins"
   homepage "https://github.com/Cod-e-Codes/marchat"
-  version "0.11.0-beta.5"
+  version "1.0.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Cod-e-Codes/marchat/releases/download/v0.11.0-beta.5/marchat-v0.11.0-beta.5-darwin-arm64.zip"
-      sha256 "1cf8cdcb0f35f9e70fc84aa92e72caf2de3f1e0b431be033ad0d814f2234b9bf"
+      url "https://github.com/Cod-e-Codes/marchat/releases/download/v1.0.0/marchat-v1.0.0-darwin-arm64.zip"
+      sha256 "88c0189a1e29c53e9dba03cd2b887a65f0c1e008278778c7dd12126c3807fd0a"
     end
     on_intel do
-      url "https://github.com/Cod-e-Codes/marchat/releases/download/v0.11.0-beta.5/marchat-v0.11.0-beta.5-darwin-amd64.zip"
-      sha256 "4ddf24eeabcaa6214289382a81f3a310cbd645f663f37c1b3b63b9640610380b"
+      url "https://github.com/Cod-e-Codes/marchat/releases/download/v1.0.0/marchat-v1.0.0-darwin-amd64.zip"
+      sha256 "15baf6c7c2ddaa0f939fb48e350daa7f1e7efe6d74bde8cf825b3339a4122739"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Cod-e-Codes/marchat/releases/download/v0.11.0-beta.5/marchat-v0.11.0-beta.5-linux-arm64.zip"
-      sha256 "bc7dc2048d488869d1a56af2f2b2c94c68043f2d3a0d4ba08b66893e46e1252d"
+      url "https://github.com/Cod-e-Codes/marchat/releases/download/v1.0.0/marchat-v1.0.0-linux-arm64.zip"
+      sha256 "496d2985df4f1144c34ffeb8002f679ea05f1c66fd27119966038a468eca016c"
     end
     on_intel do
-      url "https://github.com/Cod-e-Codes/marchat/releases/download/v0.11.0-beta.5/marchat-v0.11.0-beta.5-linux-amd64.zip"
-      sha256 "9d12a7d422723abf328c35428902507e1db79b1386c41213952c71a8d328a0ad"
+      url "https://github.com/Cod-e-Codes/marchat/releases/download/v1.0.0/marchat-v1.0.0-linux-amd64.zip"
+      sha256 "bc5f1ef7fdfa50d04a9925ebab073ba2a0e1db2255f69c74f097c185f8252259"
     end
   end
 
