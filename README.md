@@ -1,6 +1,6 @@
 # homebrew-marchat
 
-Unofficial [Homebrew](https://brew.sh/) tap for [marchat](https://github.com/Cod-e-Codes/marchat).
+Official [Homebrew](https://brew.sh/) tap for [marchat](https://github.com/Cod-e-Codes/marchat), maintained by the project. Formulas live here rather than in `homebrew-core`; users add this tap to install.
 
 ## Install
 
