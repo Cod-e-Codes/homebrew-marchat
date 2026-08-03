@@ -1,28 +1,28 @@
 class Marchat < Formula
   desc "Terminal chat with WebSockets, optional E2E encryption, and plugins"
   homepage "https://github.com/Cod-e-Codes/marchat"
-  version "1.3.2"
+  version "1.3.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Cod-e-Codes/marchat/releases/download/v1.3.2/marchat-v1.3.2-darwin-arm64.zip"
-      sha256 "309e5920024099fb141ee93b869cd891255a3a2ffb397901a404b9c376176356"
+      url "https://github.com/Cod-e-Codes/marchat/releases/download/v1.3.3/marchat-v1.3.3-darwin-arm64.zip"
+      sha256 "9e07b783493d538309d66aae1918ad75658683622dcc153c36c43a44014aaa4b"
     end
     on_intel do
-      url "https://github.com/Cod-e-Codes/marchat/releases/download/v1.3.2/marchat-v1.3.2-darwin-amd64.zip"
-      sha256 "1af5c3e01feee8e6ab157370b87b09191a7b5bdbc11509cfeaccc0e4336fd21e"
+      url "https://github.com/Cod-e-Codes/marchat/releases/download/v1.3.3/marchat-v1.3.3-darwin-amd64.zip"
+      sha256 "a350a8bcedf35bbf85b5f2229972c21d0c056de3225b4fd5812113fa743cba06"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Cod-e-Codes/marchat/releases/download/v1.3.2/marchat-v1.3.2-linux-arm64.zip"
-      sha256 "8893e13368016d727fed37b9e2b8fff6c75c5598aabb4b059eb1f36041945cd7"
+      url "https://github.com/Cod-e-Codes/marchat/releases/download/v1.3.3/marchat-v1.3.3-linux-arm64.zip"
+      sha256 "ff5f8ebd441c0d81247389fdd182431c79f25ea1a10d61333136c99e60baa302"
     end
     on_intel do
-      url "https://github.com/Cod-e-Codes/marchat/releases/download/v1.3.2/marchat-v1.3.2-linux-amd64.zip"
-      sha256 "3f604784d11452ad907775676cb0774de8f932987e5cd208505c9d46eb89367a"
+      url "https://github.com/Cod-e-Codes/marchat/releases/download/v1.3.3/marchat-v1.3.3-linux-amd64.zip"
+      sha256 "324316296759dad4fb4380953e812be185e95ae9de3ef831ca090eca6623245d"
     end
   end
 
